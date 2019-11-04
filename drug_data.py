@@ -66,8 +66,6 @@ SN38 =  [[0,6.11e-06,9.33e-06,12.04e-06,8.52e-06,6.15e-06,1.74e-06],
          [0,6.86e-06,17.36e-06,22.33e-06,28.70e-06,19.93e-06,5.03e-06],
          [0,0.00,10.38e-06,13.82e-06,12.21e-06,np.nan,np.nan]]
 pat_nums_cpt = [0,1,2,3,4,5,6,7,8,9,10]
-# pateint ID
-CPT11_pat_id = ['REN-JA','VIAMA','MORCA','BOMA','COUJE','LEGMI','FRENCH','DAOAB','POICO','PLAPH','PAPAL']
 # total dose = mg/m^2 times m^2
 FU_tot_dose = np.multiply(933,m_sq)
 FU_time = [[21.75,25.25,28,31.25,33.75],
@@ -94,8 +92,6 @@ FU = [[0,0,587e-06,212e-06,0],
     [0,0,1641e-06,761e-06,101e-06],
     [np.nan]*5]
 pat_nums_fu =[0,1,2,3,4,6,7,8,9]
-# pateint ID
-FU_pat_id = ['REN-JA','VIAMA','MORCA','BOMA','COUJE','FRENCH','DAOAB','POICO','PLAPH']
 # total dose = mg/m^2 times m^2
 LOHP_tot_dose = np.multiply(28,m_sq)
 LOHP_time = [[10.25,13.25,16.25,19.25,22,28],
@@ -134,8 +130,6 @@ LOHP_free = [[0.00,0.00,49.37e-06,54.57e-06,182.23e-06,90.39e-06],
             [0,0.00,109.42e-06,104.54e-06,85.05e-06,69.50e-06],
             [np.nan]*6]
 pat_nums_lohp = [0,1,2,3,4,5,6,7,8,9]
-# pateint ID
-LOHP_pat_id = ['REN-JA','VIAMA','MORCA','BOMA','COUJE','LEGMI','FRENCH','DAOAB','POICO','PLAPH']
 
 def plot_LOHP(save=False):
     ticks = np.arange(9,30,1)
